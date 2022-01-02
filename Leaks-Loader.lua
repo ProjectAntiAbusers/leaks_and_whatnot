@@ -47,7 +47,7 @@ local w_pierat = ui_loader.New({
 w_pierat.Button({
     Text = "PieRat Admin",
     Callback = function()
-        loadstring(request({"https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/PieRat-Admin/formatted_old_build_8cb707aa7fe7f8d5949f01ac2f5c9c6fb44c96ba.lua"}).Body)()
+        loadstring(request({Url = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/PieRat-Admin/formatted_old_build_8cb707aa7fe7f8d5949f01ac2f5c9c6fb44c96ba.lua"}).Body)()
     end
 })
 
