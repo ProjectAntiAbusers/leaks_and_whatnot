@@ -15,3 +15,5 @@ Scorpion v1.41: `jnz#9786`
 Fatehub gui: `Chaotic Mind#8930`
 
 Fatehub admin: `Chaotic Mind#8930`
+
+PieRat Admin: `jnz#9786`
