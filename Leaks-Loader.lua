@@ -52,7 +52,7 @@ for i, v in pairs(scripts) do
         window.Button({
             Text = i2,
             Callback = function()
-                loadstring(request({Url = v2}).Body)() 
+                loadstring(request({Url = v2, Method = "GET"}).Body)() 
             end
         })
     end
