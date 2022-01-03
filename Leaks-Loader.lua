@@ -2,8 +2,8 @@
 
 local scripts = {
     ["PieRat Admin"] = {
-        ["Old build"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/PieRat-Admin/formatted_old_build_8cb707aa7fe7f8d5949f01ac2f5c9c6fb44c96ba.lua",
-        ["Whitelist Workaround"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/PieRat-Admin/whitelist_workaround.lua"
+        ["PieRat Old build"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/PieRat-Admin/formatted_old_build_8cb707aa7fe7f8d5949f01ac2f5c9c6fb44c96ba.lua",
+        ["PieRat Whitelist Workaround"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/PieRat-Admin/whitelist_workaround.lua"
     },
                         
     ["FateHub"] = {
@@ -13,15 +13,16 @@ local scripts = {
 
     ["Scorpion"] = {
         ["Scorpion Alpha"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/Scorpion/Scorpion-Alpha.lua",
+        ["!! WEBHOOK REMOVED !! Scorpion V1.41"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/Scorpion/WEBHOOK-REMOVED-Scorpion-V1.41.lua",
         ["Scorpion V1.41"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/Scorpion/Scorpion-V1.41.lua"
     },
 
     ["XenHub"] = {
         ["XenHub Loader (Whitelist Workaround)"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/XenHub/loader-whitelist-workaround.lua",
-        ["[XenHub] Prison Life"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/XenHub/Prison-Life.lua",
-        ["[XenHub] Ninja Legends"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/XenHub/Ninja-Legends.lua",
-        ["[XenHub] Legends of Speed"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/XenHub/Legends-of-Speed.lua",
-        ["[XenHub] Giant Simulator"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/XenHub/Giant-Simulator.lua"
+        ["XenHub Prison Life"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/XenHub/Prison-Life.lua",
+        ["XenHub Ninja Legends"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/XenHub/Ninja-Legends.lua",
+        ["XenHub Legends of Speed"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/XenHub/Legends-of-Speed.lua",
+        ["XenHub Giant Simulator"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/XenHub/Giant-Simulator.lua"
     }
 }
 
@@ -43,56 +44,16 @@ local ui_loader = lib.Load({
     Theme = "Dark"
 })
 
-local w_pierat = ui_loader.New({
-    Title = "PieRat"
-})
-
-for i, v in pairs(scripts["PieRat Admin"]) do 
-w_pierat.Button({
-    Text = i,
-    Callback = function()
-        loadstring(request({Url = v}).Body)()
+for i, v in pairs(scripts) do 
+    local window = ui_loader.New({
+        Title = i
+    })
+    for i2, v2 in pairs(v) do 
+        window.Button({
+            Text = i2,
+            Callback = function()
+                loadstring(request({Url = v2}).Body)() 
+            end
+        })
     end
-})
-end
-
-
-
-local w_fate = ui_loader.New({
-    Title = "FateHub"
-})
-
-for i, v in pairs(scripts["FateHub"]) do 
-    w_fate.Button({
-        Text = i,
-        Callback = function()
-            loadstring(request({Url = v}).Body)()
-        end
-    })
-end
-
-local w_scorpion = ui_loader.New({
-    Title = "Scorpion"
-})
-
-for i, v in pairs(scripts["Scorpion"]) do 
-    w_scorpion.Button({
-        Text = i,
-        Callback = function()
-            loadstring(request({Url = v}).Body)()
-        end
-    })
-end
-
-local w_xen = ui_loader.New({
-    Title = "XenHub"
-})
-
-for i, v in pairs(scripts["XenHub"]) do 
-    w_xen.Button({
-        Text = i,
-        Callback = function()
-            loadstring(request({Url = v}).Body)()
-        end
-    })
 end
