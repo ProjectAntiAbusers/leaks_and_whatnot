@@ -1,8 +1,11 @@
 -- Variables
 
 local scripts = {
-    ["PieRat Admin"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/PieRat-Admin/formatted_old_build_8cb707aa7fe7f8d5949f01ac2f5c9c6fb44c96ba.lua",
-
+    ["PieRat Admin"] = {
+        ["Old build"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/PieRat-Admin/formatted_old_build_8cb707aa7fe7f8d5949f01ac2f5c9c6fb44c96ba.lua",
+        ["Whitelist Workaround"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/PieRat-Admin/whitelist_workaround.lua"
+    },
+                        
     ["FateHub"] = {
         ["FateHub Admin"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/Fates%20prison%20life/Fatehub%20admin.lua",
         ["FateHub GUI"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/Fates%20prison%20life/Fatehub%20GUI.lua"
@@ -14,7 +17,7 @@ local scripts = {
     },
 
     ["XenHub"] = {
-        ["XenHub Loader (wl workaround)"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/XenHub/loader-whitelist-workaround.lua",
+        ["XenHub Loader (Whitelist Workaround)"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/XenHub/loader-whitelist-workaround.lua",
         ["[XenHub] Prison Life"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/XenHub/Prison-Life.lua",
         ["[XenHub] Ninja Legends"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/XenHub/Ninja-Legends.lua",
         ["[XenHub] Legends of Speed"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/XenHub/Legends-of-Speed.lua",
@@ -44,12 +47,16 @@ local w_pierat = ui_loader.New({
     Title = "PieRat"
 })
 
+for i, v in pairs(scripts["PieRat Admin"]) do 
 w_pierat.Button({
-    Text = "PieRat Admin",
+    Text = i,
     Callback = function()
-        loadstring(request({Url = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/PieRat-Admin/formatted_old_build_8cb707aa7fe7f8d5949f01ac2f5c9c6fb44c96ba.lua"}).Body)()
+        loadstring(request({Url = v}).Body)()
     end
 })
+end
+
+
 
 local w_fate = ui_loader.New({
     Title = "FateHub"
