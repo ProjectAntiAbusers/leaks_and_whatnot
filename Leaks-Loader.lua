@@ -3,9 +3,12 @@
 local scripts = {
     ["PieRat Admin"] = {
         ["PieRat Old build"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/PieRat-Admin/formatted_old_build_8cb707aa7fe7f8d5949f01ac2f5c9c6fb44c96ba.lua",
-        ["PieRat Whitelist Workaround"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/PieRat-Admin/whitelist_workaround.lua"
+        ["PieRat Whitelist Workaround"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/PieRat-Admin/whitelist_workaround.lua",
+        ["PieRat V2.74"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/PieRat-Admin/PieRat-v2.74.lua",
+        ["PieRat V2.73"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/PieRat-Admin/PieRat-v2.73.lua",
+        ["PieRat V2.67"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/PieRat-Admin/PieRat-v2.67.lua"
     },
-                        
+
     ["FateHub"] = {
         ["FateHub Admin"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/Fates%20prison%20life/Fatehub%20admin.lua",
         ["FateHub GUI"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/Fates%20prison%20life/Fatehub%20GUI.lua"
