@@ -2,7 +2,7 @@
 
 local scripts = {
     ["PieRat Admin"] = {
-        ["PieRat Old build"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/PieRat-Admin/formatted_old_build_8cb707aa7fe7f8d5949f01ac2f5c9c6fb44c96ba.lua",a",
+        ["PieRat Old build"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/PieRat-Admin/formatted_old_build_8cb707aa7fe7f8d5949f01ac2f5c9c6fb44c96ba.lua",
         ["PieRat V2.74"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/PieRat-Admin/PieRat-v2.74.lua",
         ["PieRat V2.73"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/PieRat-Admin/PieRat-v2.73.lua",
         ["PieRat V2.67"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/PieRat-Admin/PieRat-v2.67.lua",
@@ -27,6 +27,10 @@ local scripts = {
         ["XenHub Ninja Legends"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/XenHub/Ninja-Legends.lua",
         ["XenHub Legends of Speed"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/XenHub/Legends-of-Speed.lua",
         ["XenHub Giant Simulator"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/XenHub/Giant-Simulator.lua"
+    },
+    
+    ["Linorix Hub"] = {
+        ["LinorixHub"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/Linorix-Hub/Linorix.lua"
     }
 }
 
