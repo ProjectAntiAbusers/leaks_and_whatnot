@@ -6,7 +6,9 @@ local scripts = {
         ["PieRat Whitelist Workaround"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/PieRat-Admin/whitelist_workaround.lua",
         ["PieRat V2.74"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/PieRat-Admin/PieRat-v2.74.lua",
         ["PieRat V2.73"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/PieRat-Admin/PieRat-v2.73.lua",
-        ["PieRat V2.67"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/PieRat-Admin/PieRat-v2.67.lua"
+        ["PieRat V2.67"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/PieRat-Admin/PieRat-v2.67.lua",
+        ["PieRat V2 (New GUI)"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/PieRat-Admin/Pierat-v2_gui_ce0f011885ed423b877e4428932dd26360561a80.lua",
+        ["PieRat V3 (New GUI)"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/PieRat-Admin/Pierat-v3_gui_2aa7eb5d7a230eacae4f856bb228d07804801ec0.lua"
     },
 
     ["FateHub"] = {
