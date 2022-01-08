@@ -16,4 +16,4 @@ Fatehub gui: `Chaotic Mind#8930`
 
 Fatehub admin: `Chaotic Mind#8930`
 
-PieRat Admin: (v2.67, v2.73, v2.74, source code) `jnz#9786`
+PieRat Admin: (v2.67, v2.73, v2.74, v2 new GUI, V3 new GUI, source code) `jnz#9786`
