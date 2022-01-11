@@ -19,3 +19,5 @@ Fatehub Admin: `Chaotic Mind#8930`
 PieRat Admin: (v2.67, v2.73, v2.74, v2 new GUI, V3 new GUI, source code) `jnz#9786`
 
 Linorix Hub: `jnz#9786`
+
+Felix Hub: (Loader, Dead by Roblox, Obby) `jnz#9786`
