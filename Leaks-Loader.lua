@@ -29,6 +29,12 @@ local scripts = {
         ["XenHub Giant Simulator"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/XenHub/Giant-Simulator.lua"
     },
     
+    ["FelixHub"] = {
+        ["FelixHub Loader"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/Felix-Hub/Loader_Deobfuscated.lua",
+        ["FelixHub Dead by Roblox"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/Felix-Hub/Dead_by_Roblox_Deobfuscated.lua",
+        ["FelixHub Obby"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/Felix-Hub/Obby_Deobfuscated.lua",
+    },
+    
     ["Linorix Hub"] = {
         ["LinorixHub"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/Linorix-Hub/Linorix.lua"
     }
