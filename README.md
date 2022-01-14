@@ -1,6 +1,6 @@
 # leaks and what not
 
-A Collection of leaked/deobfuscated scripts.
+A Collection of leaked/deobfuscated scripts. (most are pasted as well)
 
 ## Credits
 
