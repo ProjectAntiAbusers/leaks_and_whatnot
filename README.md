@@ -8,13 +8,13 @@ Note: The credits are for **WHO DEOBFUSCATED / LEAKED IT ON HERE**
 
 XenHub: `Shine#0064`
 
-Scorpion Alpha: `Chaotic Mind#8930`
+Scorpion Alpha: `Chaotic Mind#0666`
 
 Scorpion v1.41: `jnz#9786`
 
-Fatehub GUI: `Chaotic Mind#8930`
+Fatehub GUI: `Chaotic Mind#0666`
 
-Fatehub Admin: `Chaotic Mind#8930`
+Fatehub Admin: `Chaotic Mind#0666`
 
 PieRat Admin: (v2.67, v2.73, v2.74, v2 new GUI, V3 new GUI, source code, whitelist bypass) `jnz#9786`
 
