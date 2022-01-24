@@ -16,7 +16,7 @@ Fatehub GUI: `Chaotic Mind#0666`
 
 Fatehub Admin: `Chaotic Mind#0666`
 
-PieRat Admin: (v2.67, v2.73, v2.74, v2 new GUI, V3 new GUI, source code, whitelist bypass) `jnz#9786`
+PieRat Admin: LD (v2.67, v2.73, v2.74), Whitelist byass(es), source code:  `jnz#9786`
 
 Linorix Hub: `jnz#9786`
 
