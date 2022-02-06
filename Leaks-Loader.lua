@@ -8,8 +8,8 @@ local scripts = {
         ["PieRat V2.67"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/PieRat-Admin/PieRat-v2.67.lua",
         ["PieRat V2 (New GUI)"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/PieRat-Admin/Pierat-v2_gui_ce0f011885ed423b877e4428932dd26360561a80.lua",
         ["PieRat V3 (New GUI)"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/PieRat-Admin/Pierat-v3_gui_2aa7eb5d7a230eacae4f856bb228d07804801ec0.lua",
-        ["PieRat Whitelist Bypass V2"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/PieRat-Admin/Whitelist-Bypass.lua",
-        ["PieRat Whitelist Bypass V2.1"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/PieRat-Admin/Whitelist-Bypass-V2.1.lua"
+       -- ["PieRat Whitelist Bypass V2"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/PieRat-Admin/Whitelist-Bypass.lua",
+       -- ["PieRat Whitelist Bypass V2.1"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/PieRat-Admin/Whitelist-Bypass-V2.1.lua"
     },
 
     ["FateHub"] = {
@@ -39,6 +39,9 @@ local scripts = {
     
     ["Linorix Hub"] = {
         ["LinorixHub"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/Linorix-Hub/Linorix.lua"
+    },
+    ["Lanxilty"] = {
+        ["Lanxilty"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/Lanxilty/Lanxilty-Key-System-Bypass.lua",
     }
 }
 
