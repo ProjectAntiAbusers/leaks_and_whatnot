@@ -41,7 +41,7 @@ local scripts = {
         ["LinorixHub"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/Linorix-Hub/Linorix.lua"
     },
     ["Lanxilty"] = {
-        ["Lanxilty"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/Lanxilty/Lanxilty-Key-System-Bypass.lua",
+        ["Lanxilty Key Bypass"] = "https://raw.githubusercontent.com/jnz-dev/leaks_and_whatnot/main/Lanxilty/Lanxilty-Key-System-Bypass.lua",
     }
 }
 
