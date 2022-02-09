@@ -1,6 +1,6 @@
 # leaks and what not
 
-A Collection of leaked/deobfuscated scripts. (most are pasted as well)
+A Collection of leaked/deobfuscated scripts, scripts with key bypasses and whatnot. (Most of them are not obfuscated however, some however are deobfuscated to make it more difficult to patch for example a key system bypass)
 
 ## Credits
 
