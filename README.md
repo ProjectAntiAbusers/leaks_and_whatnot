@@ -21,3 +21,5 @@ PieRat Admin: LD (v2.67, v2.73, v2.74), Whitelist byass(es), source code:  `jnz#
 Linorix Hub: `jnz#9786`
 
 Felix Hub: (Loader, Dead by Roblox, Obby) `jnz#9786`
+
+BloxHub: `jnz#9786`
